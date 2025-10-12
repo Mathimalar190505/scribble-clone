@@ -1,0 +1,18 @@
+/* src/index.css (or src/App.css) */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* NOTE: You may also need to manually add the scrollbar styles here
+   that were in the Whiteboard component before */
+.scrollbar-thin {
+    /* CSS properties for thin scrollbar */
+    scrollbar-width: thin;
+    scrollbar-color: #9ca3af #f3f4f6;
+}
+
+.scrollbar-thin::-webkit-scrollbar {
+    width: 8px;
+}
+/* ... etc. for webkit styles */
